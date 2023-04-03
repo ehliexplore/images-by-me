@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.img-size {
+    width: 300px; /* set the width to 300 pixels */
+    height: auto; /* automatically adjust the height to maintain aspect ratio */
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    width: 50%; /* adjust the width of the images */
+    margin: 0 10px; /* add some margin between the images */
+  }
+  
+  #typewriter {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 1s steps(20) forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
